@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  border: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+b {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  cursor: auto;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  background-color: #BDD434;
+  border-radius: 30px;
+  padding: 11px 36px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+/*--------------------------------------*/
+
+/*HEAD*/
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  height: 75px;
+  width: 100vw;
+  padding: 15px 0;
+}
+
+@media (min-width: 769px) {
+  header {
+    background-color: transparent;
+    padding: 30px;
+    height: 98px;
+  }
+}
+
+.header-container {
+    width: 720px;
+    height: 42px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 769px) {
+  .header-container {
+    width: 940px;
+    height: 38px;
+  }
+}
+
+.logo {
+  background-image: url(./img/wot-logo-whitex2.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 155px;
+  /*position: fixed;
+  left: 25px;
+  top: 25px;*/
+  padding-top: 4px;
+  margin-left: 14px;
+  margin-right: 0;
+  display: inline-block;
+}
+
+.menu {
+  height: 30px;
+  display: inline-block;
+  float: right;
+  align-content: center;
+}
+
+.menu-item {
+  color: #f0f0f0;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 20px 0 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+  float: left;
+  align-content: center;
+}
+
+.menu-item:hover {
+  border-bottom: 2px solid #BDD434;
+  text-decoration: none;
+}
+
+@media (max-width: 769px) {
+  .menu {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 769px) {
+  .menu-item {
+    visibility: hidden;
+  }
+}
+
+.hamburger {
+  height: 24px;
+  width: 24px;
+  /*position: relative;*/
+  margin-top: 10px;
+}
+
+.hamburger img {
+  height: 24px;
+  width: 24px;
+  filter: invert(1);
+}
+
+@media (min-width: 769px) {
+  .hamburger img {
+    visibility: hidden;
+  }
+}
+
+.landing {
+  padding-top: 75px;
+
+}
+
+.landing button {
+  margin: 50px;
+}
+
+.main-pic {
+  background-image: url(./img/wot-masthead-dark.jpg);
+  /*position: absolute;*/
+  /*top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+@media (max-width: 769px) {
+  .main-pic {
+
+  }
+}
+
+h1 {
+  padding-top: 80px;
+  margin: 0 auto;
+  max-width: 760px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.page-title p {
+  margin; 0;
+  padding-left: 25px;
+}
+
+.title {
+  font-size: 152px;
+}
+
+em {
+  color: orange;
+}
+
+i {
+  color: #BDD434;
+}
+
+.button-container {
+  padding: 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat {
+  height: 52px;
+  width: 52px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  border-radius: 10px !important;
+  padding: 0 !important;
+}
+
+/*MAIN*/
+main {
+}
+
+.blurb-1 {
+  background-color: rgb(222, 222, 222);
+  font-family: 'Lato', sans-serif;
+  font-size:24px;
+  color: grey;
+  padding: 50px;
+  line-height: 1em;
+  text-align: center;
+}
+
+.blurb-1 p {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Oswald';
+  font-size: 42px;
+  line-height: 46px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+/*FOOTER*/
+footer {
+}
